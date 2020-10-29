@@ -1,0 +1,34 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Font Awesome 
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//@import '../plugins/bootstrap/4.3/examples/pricing/pricing';
+
+// Admin LTE v3
+@import '~admin-lte/dist/css/adminlte.css';
+
+$breadcrumb-divider: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjgiPjxwYXRoIGQ9Ik0yLjUgMEwxIDEuNSAzLjUgNCAxIDYuNSAyLjUgOGw0LTQtNC00eiIgZmlsbD0iY3VycmVudENvbG9yIi8+PC9zdmc+);
+
+.is-invalid {
+	background: #ff3111 !important;
+	color: #fff !important;
+	background: rgb(251, 227, 228 )!important;
+	border: 1px solid #fbc2c4 !important;
+	color: #8a1f11 !important;
+	display: inline-block !important;
+}
+
+//@import 'https://rawgit.com/lykmapipo/themify-icons/master/css/themify-icons.css';
+
+@import '../plugins/callout/callout';
